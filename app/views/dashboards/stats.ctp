@@ -1,0 +1,4 @@
+Source name,Source disabled,Total prospects,Total applicants,Total admits,Total enrollees,Total Conversion rate: Applicants/total,Quality: Admits/applicants,Yield: Enrollees/applicants<?php echo chr(13); ?>
+<?php foreach($stats as $stat) : ?>
+<?php echo $stat['Source']['name']; ?>,<?php echo $pretty->yesno($stat['Source']['disabled']); ?>,<?php echo $stat['Source']['prospect_count']; ?>,<?php echo $stat['Source']['applied']; ?>,<?php echo $stat['Source']['admitted']; ?>,<?php echo $stat['Source']['enrolled']; ?>,<?php echo $pretty->percentage($stat['Source']['applicants_to_total']); ?>%,<?php echo $pretty->percentage($stat['Source']['admits_to_applicants']); ?>%,<?php echo $pretty->percentage($stat['Source']['enrollees_to_admits']); ?>%<?php echo chr(13); ?>
+<?php endforeach; ?>

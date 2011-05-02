@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* Used by the public site and the app */
+
+#PriceTable {
+	border-collapse:collapse;
+	border-bottom: 1px solid #006600;
+	border-top: 1px solid #006600;
+	margin-bottom:10px;
+}
+
+#priceTable THEAD TH {
+	background-color: #FFFFCC;
+	border-right: 1px solid #006600;
+	border-left: 1px solid #006600;
+	font-weight:bold;
+	font-size: 120%;
+	padding:10px;
+}
+
+#PriceTable TD, #PriceTable TH {
+	padding:1em;
+}
+
+#PriceTable .signup {
+}
+
+#PriceTable TD, #PriceTable TH {
+	border-right: 1px solid #006600;
+	border-left: 1px solid #006600;
+}
+
+.subnote
+{
+	font-weight: bold;
+	font-size:75%;
+	color:#999999;
+}
+
+.callout
+{
+	font-weight:bold;
+}
+
+.hr
+{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}

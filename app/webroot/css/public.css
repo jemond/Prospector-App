@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* 
+Created: 
+	20081001
+	
+Author:
+	Justin
+	
+Colors:
+	Logo orange - #ff5d01
+	Logo blue - #0f2c8d
+
+*/
+
+BODY {
+	padding:0;
+	margin:0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	background-color:#b0b7bf;
+}
+
+IMG {border:0; }
+
+#Header {
+	text-align:center;
+}
+
+#Header IMG {
+	margin-left:1em;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+
+#Wrapper {
+	width:55em;
+	margin:0px auto;
+	text-align:left;
+	background-color:#FFFFFF;
+}
+
+#Navigation A.active {
+	text-decoration:none;
+	color:#000;
+	background-color:#ff5d01;
+}
+
+#Navigation A {
+	padding:10px;
+	display: inline-block;
+}
+
+#Banner {
+	background-color: #F3F3F3;
+	padding:1em;
+}
+
+#Banner P {
+	width:30em;
+	line-height:1.75em;
+}
+
+#Banner P .button {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	border: 1px solid #0f2c8d;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	color: #0f2c8d;
+	font-weight:bold;
+}
+
+#Banner H1 {
+	margin:0;
+	padding:0;
+}
+
+.right { float:right; }
+.left { float:left; }
+
+#Fold {
+	padding:1em;
+}
+
+#Fold H2 {
+	font-size:115%;
+}
+
+#Fold .right {
+	width:20em;
+}
+
+#Fold .left {
+	width:30em;
+}
+
+#Fold .leftnote {
+	width:38em;
+	float: left;	
+}
+
+#Fold .rightnote {
+	width:12em;
+	float: right;
+	border: 5px solid #006600;	
+	background-color: #FFFFCC;
+	padding-left: 5px;
+	padding-top:5px;
+}
+
+#Fold .rightnote P {
+	padding-top:0;
+	margin-top:0;
+}
+
+.callout {
+	font-weight:bold;
+}
+
+.quote {
+	font-style: italic;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-image:url(../img/left-quote.gif);
+	padding-left:2em;
+	font-size:75%;
+}
+
+.quoteauthor {
+	font-weight: bold;
+	font-size:75%;
+	color:#999999;
+	text-align:right;
+}
+
+.checklist {
+	list-style-image:url(../img/tick.gif);
+}
+
+LI {
+	margin-bottom:10px;
+}

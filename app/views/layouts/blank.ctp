@@ -1,0 +1,1 @@
+<?php header('Content-type: text/html; charset=UTF-8') ;?><html><head><?php echo $html->charset('utf-8'); ?></head><body><?php echo $content_for_layout; ?></body></html>

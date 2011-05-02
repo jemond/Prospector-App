@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* CSS Document */
+
+IMG
+{
+	border:0px;
+}
+
+BODY
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: #e5e5e5;
+}
+
+#Page
+{	
+	background:#fff url(/img/shadow-right.gif) repeat-y scroll right center;
+	padding:0 8px 0 0;
+	width:51em;
+	z-index:200;
+	position:relative;
+}
+
+#Sidebar {
+	float: right;
+	width:15em;
+	z-index:100;
+	border: 5px solid #FFFF99;
+	background-color:#FFFFFF;
+}
+#SidebarWrapper {
+	font-size:75%;
+	padding-left:10px;
+}
+
+#SidebarMainContent {
+	float: left;
+}
+
+#Bottom
+{
+	background:transparent url(/img/shadow-bottom.gif) no-repeat scroll right top;
+	font-size:8px;
+	padding:0px 8px 20px 0px;
+	width: 102em;
+}
+
+#Top
+{
+	background-color: #EDF3FE;
+	padding:1em;
+	height:2em;
+}
+
+#Top H1
+{
+	padding:0;
+	margin:0;
+}
+
+#Top .left { float:left; }
+#Top .right { float:right; }
+
+#Top P
+{
+	margin:0;
+	padding:0;
+}
+
+#Main
+{
+	background-color:#FFFFFF;
+	padding:1em;
+}
+
+#Main H3 {
+	padding-top:0;
+	margin-top:0;
+}
+
+#Left
+{
+	float:left;
+	padding:1em;
+	background-color:#f5f5f5;
+	width:15em;
+}
+
+#Right
+{
+	float:left;
+	background-color:#FFFFFF;
+	padding:1em;
+	width:31em;
+	margin:0;
+}
+
+#Header
+{
+	background-color:#a1d3ad;
+	height: 3.6em;
+	width:100%;
+	border-bottom: 1px solid #003300;
+}
+
+#Header IMG {
+	margin-left:0.75em;
+}
+#Header H1 A {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#UserBar
+{
+	float:right;
+	margin-right:2em;
+	font-size:75%;
+	margin-top:5px;
+	font-weight:bold;
+}
+
+#Navigation
+{
+	float: left;
+	padding-left:1em;
+	text-align:left;
+	vertical-align:bottom;
+	margin-top:1.5em;
+}
+
+#Navigation A
+{
+	text-decoration:none;
+	color:#FFFFFF;
+	display:inline;
+	font-weight:bold;
+	padding:0.5em;
+	float:left;
+	margin:0;
+	margin-right:0.5em;
+	background: #666;
+}
+
+#Navigation A.active
+{
+	background-color: #003300;
+}
+
+#Navigation A:HOVER
+{
+	background: #003300;
+}
+
+#Links
+{
+	padding-top: 2em;
+	padding-bottom:0.5em;
+}
+
+#Content
+{
+	clear:both;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+#Content H2
+{
+	margin:0;
+}
+
+#FooterLogo {
+	padding-bottom:1em;
+	padding-left:24em;
+}
+
+#Filter
+{
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#tblProspects TH
+{
+	text-align: left;
+}
+
+.alert
+{
+	font-weight:bold;
+	background-color:#FFFF00;
+	padding:5px;
+}
+
+#Tools
+{
+}
+
+#Tools A, #Tools H2
+{
+	float: left;
+}
+
+#Tools A
+{
+	text-decoration: none;
+	color: #333333;
+	padding:0.25em;
+	background-color:#CCCCCC;
+	font-weight:bold;
+	display:block;
+	margin-left: 0.5em;
+}
+
+.contactblock
+{
+	padding-bottom:1em;
+	margin-bottom:0.5em;
+	border-bottom: 1px solid #CCCCCC;
+	font-size:75%;
+}
+
+.contactdetails
+{
+	font-weight:bold;
+}
+
+.contactdetails, .contactaction
+{	
+	padding:0;
+}
+
+#PaneDetails TH
+{
+	text-align: left;
+	font-size:85%;
+	vertical-align:middle;
+}
+
+#PaneDetails TBODY TH
+{
+	padding-left: 0.5em;
+	color:#333333;
+	font-size:75%;
+	width:8em;
+}
+
+#PaneDetails THEAD TH
+{
+	border-bottom:1px solid #000000;
+	padding-top:1em;
+}
+
+#PaneDetails THEAD TH SPAN
+{
+	font-size:110%;
+	display:inline-block;
+}
+
+#PaneDetails
+{
+	border-collapse:collapse;
+}
+
+.cwhstatus
+{
+	width:1em;
+	height:1em;
+	display:block;
+	border:1px solid #000000;
+}
+
+.state0 { background-color:#0000FF; }
+.state1 { background-color:#FF9900; }
+.state2 { background-color:#FF0000; }
+
+.error-message
+{
+	color:#FF0000;
+	padding:3px;
+	font-weight:bold;
+}
+
+FORM DIV.input LABEL
+{
+	width:10em;
+	display:inline-block;
+	font-weight:bold;
+}
+
+FORM DIV.input 
+{
+	padding:0.25em;
+}
+
+FORM DIV.input INPUT,FORM DIV.input SELECT
+{
+	padding:0.2em;
+}
+
+FORM .formnote {
+	margin-left:10em;
+}
+
+FORM .formnote P {
+	padding:0;
+	margin:0;
+	font-size:75%;
+	color:#999999;
+	font-weight:bold;
+
+
+	margin-left:5px;
+}
+
+FIELDSET {
+	border: 3px solid #666666;
+	margin-bottom:10px;
+	width:30em;
+}
+
+FIELDSET LEGEND {
+	color: #333333;
+}
+
+.radio
+{
+	display:inline;
+}
+
+.radio LABEL
+{
+	width: 2em;
+}
+
+.nopadding
+{
+	padding: 0;
+}
+
+.inlinesubmit
+{
+	display:inline;
+}
+
+TR.disabled > TD
+{
+	text-decoration:line-through;
+}
+
+.addbox
+{
+	border:1px solid #999999;
+	padding-left: 1em;
+	padding-right: 1em;
+	min-width:12em;
+	margin-bottom:1em;
+}
+
+.addbox H1
+{
+	font-size:100%;
+	margin:0;
+	margin-top:15px;
+}
+
+#Message
+{
+	width:49em;
+	padding:1em;
+	margin-bottom:1em;
+	font-weight:bold;
+}
+
+#Message.error
+{
+	border:1px solid #003300;
+	background-color:#FF0000;
+}
+
+#Message.alert
+{
+	border:1px solid #003300;
+	background-color:#FFFF00;
+}
+
+#Message.success
+{
+	border:1px solid #003300;
+	background-color:#00CC00;
+}
+
+.checkbox, .file
+{
+	display:inline;
+}
+
+#Loading
+{
+	padding-top:5px;
+	padding-left:5px;
+}
+
+.attentionnote
+{
+	font-weight: bold;
+	color:#FF00FF;
+}
+
+.deleted
+{
+	text-decoration:line-through;
+}
+
+#progressbar
+{
+	border:1px solid #e5e5e5;
+	display:inline-block;
+	width: 300px;
+	height:30px;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+
+#progressbar IMG {
+	border:0;
+	padding:0;
+}
+
+#CampaignProgress TR.next
+{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#CampaignProgress TD.step
+{
+	text-align:center;
+	line-height:75%;
+	vertical-align:middle;
+}
+
+#CampaignProgress TR.complete
+{
+	text-decoration: line-through;
+}
+
+#CampaignProgress TR.next TD.step
+{
+	font-size:350%;
+}
+
+#CampaignProgress TD.reports P
+{ 
+	background-color: #FFFF00;
+	padding:1em;
+}
+
+#ClosedCampaignBox
+{ 
+	border: 3px solid #666666;
+	padding-left:1em;
+	padding-right: 1em;
+	padding-bottom:1em;
+	margin-top:1em;
+	margin-right:3em;
+}
+
+#BarHelper
+{
+	float: right;
+	text-align:left;
+	width:150px;
+	background-color:#CCCCCC;
+	padding: 1em;
+}
+
+#CampaignDetail {
+	border-collapse:collapse;
+}
+
+#CampaignDetail TD
+{
+	padding-top:1em;
+	padding-bottom:1em;
+	border-bottom: 1px solid #e5e5e5;
+	vertical-align:middle;
+}
+
+#CampaignDetail TD.icons, #CampaignDetail TD.title
+{
+	padding-right: 1em;
+}
+
+.imagemiddle
+{
+	vertical-align:middle;
+}
+
+.largeinput
+{
+	font-size: 125%;
+}
+
+.settingstable TH
+{
+	text-align:left;
+}
+
+.largeform INPUT, .largeform LABEL
+{
+	font-size: 125%;
+}
+
+.uploadtable TD {
+	padding-left:1em;
+	padding-bottom: 5px;
+}
+
+.uploadtable TH {
+	text-align: right;
+}
+
+.alert-box {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	vertical-align:middle;
+	display: inline-block;
+}
+
+.alert-box IMG {
+	vertical-align:text-bottom;
+}
+
+.statstable TH {
+	font-size: 75%;
+}
+
+.WarningBox {
+	border: 3px solid #FF0000;
+	margin:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+.DashboardMessage {
+	border: 2px dotted #003300;
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+}

@@ -1,0 +1,1 @@
+<?php // this is empty and used the /layouts/invoice.ctp file ?>

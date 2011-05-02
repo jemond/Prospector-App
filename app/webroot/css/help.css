@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: #fff;
+}
+
+#Wrapper {
+	width:40em;
+	margin:1em;
+}
+
+.callout {
+	font-weight:bold;
+}
+
+.subnote
+{
+	font-weight: bold;
+	font-size:75%;
+	color:#999999;
+}
